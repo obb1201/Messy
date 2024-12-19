@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="OptionParser.cpp" />
+    <ClCompile Include="FormatParser.cpp" />
+    <ClCompile Include="lib\BC.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\BC4BC5.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\BC6HBC7.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\BCDirectCompute.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\DirectXTexCompress.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\DirectXTexCompressGPU.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\DirectXTexConvert.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\DirectXTexD3D11.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\DirectXTexDDS.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\DirectXTexFlipRotate.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\DirectXTexImage.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\DirectXTexMipmaps.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\DirectXTexMisc.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\DirectXTexNormalMaps.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\DirectXTexPMAlpha.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\DirectXTexResize.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\DirectXTexTGA.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\DirectXTexUtil.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\DirectXTexWIC.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OptionParser.h" />
+    <ClInclude Include="FormatParser.h" />
+    <ClInclude Include="lib\BC.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\BCDirectCompute.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\DDS.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\DirectXTex.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\DirectXTexP.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Filters.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\scoped.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{7b5d59d2-a057-46d1-8178-7c5c2a935280}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\DirectXTex.inl">
+      <Filter>Lib</Filter>
+    </None>
+  </ItemGroup>
+</Project>

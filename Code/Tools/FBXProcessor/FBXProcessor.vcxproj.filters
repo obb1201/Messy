@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="FBXConverter.h" />
+    <ClInclude Include="Data\Vertex.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\CompressedVertex.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Vector.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FBXConverter.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Data">
+      <UniqueIdentifier>{6ce8ce7a-392a-4045-a4f2-e3e8bcec360b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

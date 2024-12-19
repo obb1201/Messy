@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Gameplay\MessyGame.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_pc.cpp" />
+    <ClCompile Include="Gameplay\Gamestate\MainMenuState.cpp">
+      <Filter>Gameplay\Gamestate</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\Gamestate\SplashScreenState.cpp">
+      <Filter>Gameplay\Gamestate</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\Gamestate\GamePlayState.cpp">
+      <Filter>Gameplay\Gamestate</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\Gamestate\PauseMenuState.cpp">
+      <Filter>Gameplay\Gamestate</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\GameObject\Player.cpp">
+      <Filter>Gameplay\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\GameObject\Ball.cpp">
+      <Filter>Gameplay\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\Gamestate\LoadingScreenState.cpp">
+      <Filter>Gameplay\Gamestate</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\PlayerManager.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\StadiumManager.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{f83eb7e9-eace-4def-ac06-f2cf83742ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Gamestate">
+      <UniqueIdentifier>{fdae553a-3c10-48e6-a2c6-22841aede918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\GameObject">
+      <UniqueIdentifier>{9214ce80-6c0d-4984-bab0-a54c2a319518}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gameplay\MessyGame.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\Gamestate\MainMenuState.h">
+      <Filter>Gameplay\Gamestate</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\Gamestate\SplashScreenState.h">
+      <Filter>Gameplay\Gamestate</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\Gamestate\GamePlayState.h">
+      <Filter>Gameplay\Gamestate</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\Gamestate\PauseMenuState.h">
+      <Filter>Gameplay\Gamestate</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\GameDefine.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\GameObject\Player.h">
+      <Filter>Gameplay\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\GameObject\Ball.h">
+      <Filter>Gameplay\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\Gamestate\LoadingScreenState.h">
+      <Filter>Gameplay\Gamestate</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\PlayerManager.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\StadiumManager.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

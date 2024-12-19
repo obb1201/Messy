@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Gameplay\GameObject\Ball.cpp" />
+    <ClCompile Include="Gameplay\GameObject\Player.cpp" />
+    <ClCompile Include="Gameplay\Gamestate\LoadingScreenState.cpp" />
+    <ClCompile Include="Gameplay\Gamestate\MainMenuState.cpp" />
+    <ClCompile Include="Gameplay\Gamestate\GamePlayState.cpp" />
+    <ClCompile Include="Gameplay\Gamestate\PauseMenuState.cpp" />
+    <ClCompile Include="Gameplay\Gamestate\SplashScreenState.cpp" />
+    <ClCompile Include="Gameplay\MessyGame.cpp" />
+    <ClCompile Include="Gameplay\PlayerManager.cpp" />
+    <ClCompile Include="Gameplay\StadiumManager.cpp" />
+    <ClCompile Include="Main_pc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gameplay\GameDefine.h" />
+    <ClInclude Include="Gameplay\GameObject\Ball.h" />
+    <ClInclude Include="Gameplay\GameObject\Player.h" />
+    <ClInclude Include="Gameplay\Gamestate\LoadingScreenState.h" />
+    <ClInclude Include="Gameplay\Gamestate\PauseMenuState.h" />
+    <ClInclude Include="Gameplay\Gamestate\MainMenuState.h" />
+    <ClInclude Include="Gameplay\Gamestate\GamePlayState.h" />
+    <ClInclude Include="Gameplay\Gamestate\SplashScreenState.h" />
+    <ClInclude Include="Gameplay\MessyGame.h" />
+    <ClInclude Include="Gameplay\PlayerManager.h" />
+    <ClInclude Include="Gameplay\StadiumManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FM\FM.vcxproj">
+      <Project>{fc6dbd02-a9d6-4456-b6da-81cec79ce8a3}</Project>
+      <Private>false</Private>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{748152B9-F807-452D-962D-469E8B66E22C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Messy</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\vsProps\Messy.Debug.props" />
+    <Import Project="..\vsProps\Common.Debug.props" />
+    <Import Project="..\vsProps\Common.props" />
+    <Import Project="..\vsProps\FMUsers.props" />
+    <Import Project="..\vsProps\Messy.props" />
+    <Import Project="..\vsProps\Platform.PC.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\vsProps\Common.Release.props" />
+    <Import Project="..\vsProps\Common.props" />
+    <Import Project="..\vsProps\Messy.Release.props" />
+    <Import Project="..\vsProps\FMUsers.props" />
+    <Import Project="..\vsProps\Messy.props" />
+    <Import Project="..\vsProps\Platform.PC.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile />
+    <Link />
+    <Link />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link />
+    <Link />
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

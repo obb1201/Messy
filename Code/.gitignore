@@ -1,0 +1,11 @@
+Debug
+Release
+ipch
+*.sdf
+*.suo
+*.opensdf
+*.user
+*.db
+*.opendb
+!3rdParty/bin/x64/Debug
+!3rdParty/bin/x64/Release

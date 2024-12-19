@@ -1,0 +1,665 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="System">
+      <UniqueIdentifier>{5bde8e02-1ad7-4e8f-9ec0-931cec924ce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{8b09bcb7-0696-4715-93e2-c49baa8869bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\PC">
+      <UniqueIdentifier>{5eaa9fd8-730d-48ab-87d2-50369b39a83c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Container">
+      <UniqueIdentifier>{54704e2a-0f77-4d1e-9212-30bc169e49d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{b37a6ee2-a3e5-42f0-80c9-78c681be2d46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio\PC">
+      <UniqueIdentifier>{7470d734-ff2c-44fc-aa39-7065e4d5ed16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{81e9d4c2-287b-4521-b8f2-fd110d218387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\PC">
+      <UniqueIdentifier>{62602640-cb58-4d5e-9d5d-93839acdb018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Gamestate">
+      <UniqueIdentifier>{f7e2f5e0-eac0-42fa-89f4-16e317cbbb6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Math">
+      <UniqueIdentifier>{22921c45-4c38-470a-b20d-f58546680bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Math\PC">
+      <UniqueIdentifier>{9d089d31-8044-48f5-a7fb-fd6392be575a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{4bc1c057-694e-456d-b854-41dcb1927278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\PC">
+      <UniqueIdentifier>{75a7ffe4-5548-44cd-b739-178b7a6f189e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\ComponentSystem">
+      <UniqueIdentifier>{8d18bf74-e344-45a9-8a0a-d16813946390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\ComponentSystem\Components">
+      <UniqueIdentifier>{d474165a-4953-4f1c-bba2-53e85cbe40d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\File">
+      <UniqueIdentifier>{77b03947-f4f1-47c2-95e0-a83faa023a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{b3c4d555-3a11-40de-afbc-4ec2054983a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Data">
+      <UniqueIdentifier>{7a144a5b-b7f8-455d-9aba-a007a1d2f0e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Threading">
+      <UniqueIdentifier>{dc421696-c9d5-427a-8ff8-6345aedccbce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Threading\PC">
+      <UniqueIdentifier>{e96f737b-a03f-412d-bf15-379d263f864f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Collidable">
+      <UniqueIdentifier>{5ba53cba-3146-4841-96f8-3acad5ffbac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Memory">
+      <UniqueIdentifier>{bb19ebea-c739-460b-ae8a-2843663d546c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Memory\PC">
+      <UniqueIdentifier>{02d66442-521d-40fc-be09-30b5c55f826f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shader">
+      <UniqueIdentifier>{fd329910-1ee7-447f-b6a0-f86a7f9a0e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shader\HLSL">
+      <UniqueIdentifier>{fa389700-0b5b-4749-b2b2-3390844206e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{e7d6eab3-92ad-4fb1-b522-5ebd45612c3c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="System\Memory.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GlobalInclude.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Assert.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Hash.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\Game_platform.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\Game.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\PC\Game_pc.h">
+      <Filter>Gameplay\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\AudioSystem.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\AudioPlatform.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\PC\AudioSystem_PC.h">
+      <Filter>Audio\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\Gamestate\GamestateManager.h">
+      <Filter>Gameplay\Gamestate</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\Gamestate\GameState.h">
+      <Filter>Gameplay\Gamestate</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Math\Vector2_common.h">
+      <Filter>System\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Math\Vector3_common.h">
+      <Filter>System\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Math\Vector2.h">
+      <Filter>System\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Math\PC\Vector2_pc.h">
+      <Filter>System\Math\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Math\PC\Vector3_pc.h">
+      <Filter>System\Math\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Math\Vector3.h">
+      <Filter>System\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Math\Vector4.h">
+      <Filter>System\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Math\Vector4_common.h">
+      <Filter>System\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Math\PC\Vector4_pc.h">
+      <Filter>System\Math\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\ControllerPlatform.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\ControllerManagerSharedData.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Renderer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PC\Renderer_pc.h">
+      <Filter>Graphics\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Renderer_platform.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Mesh.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\VertexBuffer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\IndexBuffer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\IComponent.h">
+      <Filter>Gameplay\ComponentSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\ObjectManagerDB.h">
+      <Filter>Gameplay\ComponentSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\GameObjectManager.h">
+      <Filter>Gameplay\ComponentSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\Components\ICmpCollidable.h">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\Components\ICmpControllable.h">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\Components\ICmpEntity.h">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\Components\ICmpLight.h">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\Components\ICmpMovable.h">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\Components\CmpEntity.h">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\Components\ICmpAI.h">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Flag64.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Math\Matrix_common.h">
+      <Filter>System\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Math\Matrix.h">
+      <Filter>System\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Math\PC\Matrix_pc.h">
+      <Filter>System\Math\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\Components\ICmpRenderable.h">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\Components\CmpCamera.h">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\Components\CmpStaticMeshRenderable.h">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PixelShader.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\RenderState.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ShaderReourceView.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\VertexShader.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Mesh_platform.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PC\Mesh_pc.h">
+      <Filter>Graphics\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Math\Quaternion.h">
+      <Filter>System\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Math\Quaternion_common.h">
+      <Filter>System\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Math\PC\Quaternion_pc.h">
+      <Filter>System\Math\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\Components\ICmpCamera.h">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Container\Array.h">
+      <Filter>System\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Container\HashMap.h">
+      <Filter>System\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Container\Queue.h">
+      <Filter>System\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Container\Stack.h">
+      <Filter>System\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Container\Vector.h">
+      <Filter>System\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="System\File\Package.h">
+      <Filter>System\File</Filter>
+    </ClInclude>
+    <ClInclude Include="System\File\FileType.h">
+      <Filter>System\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ConstantBuffer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Math\MathUtility.h">
+      <Filter>System\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="System\String.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\UnicodeString.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\File\PackageManager.h">
+      <Filter>System\File</Filter>
+    </ClInclude>
+    <ClInclude Include="System\File\PackageDesc.h">
+      <Filter>System\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Texture.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Texture_platform.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Data\TextureData.h">
+      <Filter>Resource\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\TextureManager.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Data\PackageData.h">
+      <Filter>Resource\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Data\IndexData.h">
+      <Filter>Resource\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\ControllerManager.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\PC\ControllerManager_PC.h">
+      <Filter>Controller\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Threading\Job.h">
+      <Filter>System\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Threading\WorkerThread.h">
+      <Filter>System\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Data\CompressedVertexData.h">
+      <Filter>Resource\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Threading\ThreadManager.h">
+      <Filter>System\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Threading\WorkerThreadManager.h">
+      <Filter>System\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\Components\CmpSphereCollidable.h">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\Components\CmpPlaneCollidable.h">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Threading\ThreadUtility.h">
+      <Filter>System\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Data\ModelData.h">
+      <Filter>Resource\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\ModelManager.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Model.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\VertexBuffer_platform.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\IndexBuffer_platform.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="System\UniquePtr.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\Physics\PhysicsManager.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\Components\CmpMassMovable.h">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\ComponentDefine.h">
+      <Filter>Gameplay\ComponentSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\Physics\Collidable.h">
+      <Filter>Gameplay\Collidable</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\Components\CmpCylinderCollidable.h">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\Components\CmpCapsuleCollidable.h">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Memory\MemoryTracker.h">
+      <Filter>System\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\GameInfo.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\RenderElement.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\Components\CmpPlayerCollidable.h">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Logger.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ConstantBuffer_platform.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\FrontEndManager.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\FrontEndManager_platform.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PC\FrontEndManager_pc.h">
+      <Filter>Graphics\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PixelShader_platform.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\VertexShader_platform.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\VertexInputLayout.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\VertexInputLayout_platform.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ShaderDefines.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Data\SkeletonData.h">
+      <Filter>Resource\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\SkinnedMesh.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Shader\Basic_ps.h">
+      <Filter>Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Shader\Basic_vs.h">
+      <Filter>Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Data\AnimationData.h">
+      <Filter>Resource\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\AnimationManager.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\ComponentSystem\Components\CmpSkinnedMeshRenderable.h">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Skeleton.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Shader\UI_ps.h">
+      <Filter>Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Shader\UI_vs.h">
+      <Filter>Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Renderer2D.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\AnimationGraph.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Shader\Player_ps.h">
+      <Filter>Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Shader\Player_vs.h">
+      <Filter>Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\AnimationDefine.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Gameplay\PC\Game_pc.cpp">
+      <Filter>Gameplay\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\PC\AudioSystem_PC.cpp">
+      <Filter>Audio\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\Gamestate\GamestateManager.cpp">
+      <Filter>Gameplay\Gamestate</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PC\Renderer_pc.cpp">
+      <Filter>Graphics\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\ComponentSystem\ObjectManagerDB.cpp">
+      <Filter>Gameplay\ComponentSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\ComponentSystem\GameObjectManager.cpp">
+      <Filter>Gameplay\ComponentSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\ComponentSystem\Components\CmpEntity.cpp">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\AudioSystem.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\Game.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Renderer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Math\Matrix.cpp">
+      <Filter>System\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Math\Vector2.cpp">
+      <Filter>System\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Math\Vector3.cpp">
+      <Filter>System\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Math\Vector4.cpp">
+      <Filter>System\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="System\CompileTimeCheck.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\ComponentSystem\Components\CmpCamera.cpp">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\ComponentSystem\Components\CmpStaticMeshRenderable.cpp">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PC\Mesh_pc.cpp">
+      <Filter>Graphics\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="System\File\Package.cpp">
+      <Filter>System\File</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Math\Quaternion.cpp">
+      <Filter>System\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="System\File\PackageManager.cpp">
+      <Filter>System\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\TextureManager.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\ControllerManager.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\PC\ControllerManager_PC.cpp">
+      <Filter>Controller\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Threading\Job.cpp">
+      <Filter>System\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Threading\WorkerThread.cpp">
+      <Filter>System\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Threading\ThreadManager.cpp">
+      <Filter>System\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Threading\WorkerThreadManager.cpp">
+      <Filter>System\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\ComponentSystem\Components\CmpSphereCollidable.cpp">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\ComponentSystem\Components\CmpPlaneCollidable.cpp">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Threading\PC\ThreadUtility_PC.cpp">
+      <Filter>System\Threading\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\ModelManager.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Model.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PC\VertexBuffer_pc.cpp">
+      <Filter>Graphics\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PC\IndexBuffer_pc.cpp">
+      <Filter>Graphics\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PC\Texture_pc.cpp">
+      <Filter>Graphics\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\Physics\PhysicsManager.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\ComponentSystem\Components\CmpMassMovable.cpp">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\ComponentSystem\Components\CmpCylinderCollidable.cpp">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\ComponentSystem\Components\CmpCapsuleCollidable.cpp">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Memory\MemoryTracker.cpp">
+      <Filter>System\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\GameInfo.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\ComponentSystem\Components\iCmpCollidable.cpp">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\ComponentSystem\Components\CmpPlayerCollidable.cpp">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Memory.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Logger.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PC\ConstantBuffer_pc.cpp">
+      <Filter>Graphics\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PC\FrontEndManager_pc.cpp">
+      <Filter>Graphics\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\FrontEndManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PC\VertexShader_pc.cpp">
+      <Filter>Graphics\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PC\PixelShader_pc.cpp">
+      <Filter>Graphics\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PC\VertexInputLayout_pc.cpp">
+      <Filter>Graphics\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\SkinnedMesh.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\AnimationManager.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\ComponentSystem\Components\CmpSkinnedMeshRenderable.cpp">
+      <Filter>Gameplay\ComponentSystem\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\Animation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\Skeleton.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Renderer2D.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\AnimationGraph.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Graphics\Shader\HLSL\Basic_ps.hlsl">
+      <Filter>Graphics\Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\Shader\HLSL\Basic_vs.hlsl">
+      <Filter>Graphics\Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\Shader\HLSL\UI_ps.hlsl">
+      <Filter>Graphics\Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\Shader\HLSL\UI_vs.hlsl">
+      <Filter>Graphics\Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\Shader\HLSL\Player_ps.hlsl">
+      <Filter>Graphics\Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Graphics\Shader\HLSL\Player_vs.hlsl">
+      <Filter>Graphics\Shader\HLSL</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
